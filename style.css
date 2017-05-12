@@ -1,0 +1,79 @@
+html {
+  background-color: rgb(167, 212, 238);
+}
+.site-container {
+  width: 100%;
+  height: 100%;
+}
+
+.site-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+}
+.page-title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 90px;
+  text-align: center;
+}
+.frame-container {
+  display: flex;
+  margin-right:5%;
+  margin-left:5%;
+  width:90%;
+}
+.laptop {
+  border-style: solid;
+  border-color: grey;
+  border-width: 60px;
+  background-color: black;
+  border-radius: 50px;
+  height: 360px;
+  width: 500px;
+  margin: 2%;
+  color: white;
+  font-size: 24px;
+  font-family: courier new;
+}
+.minnie-frame {
+  border-top: 140px solid black;
+  border-left, border-right, border-bottom: 5px solid red;
+  border-radius: 50px;
+  background: red;
+  height: 350px;
+  width: 600px;
+  margin: 2%;
+  background-image: radial-gradient(white 30%, transparent 0), radial-gradient(white 30%, transparent 0);
+  background-size:90px;
+  background-position: 0 0, 50px 40px;
+}
+
+.show {
+  border: 10px solid red;
+  background-color: white;
+  width: 80%;
+  height: 70%;
+  margin: auto;
+}
+
+.legend-title {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.legend-container {
+  border: 5px solid black;
+  border-radius: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  padding: 1%;
+}
+.legend-headers, .legend-emphasis, a {
+  font-family: 'Poppins', sans-serif;
+}
+.profile-link {
+  padding: 3%;
+  text-align: center;
+}
